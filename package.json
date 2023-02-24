@@ -1,0 +1,15 @@
+{
+  "name": "songs-db",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/AnnQK/songs-db.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "watch": "json-server db.json --port=8000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
