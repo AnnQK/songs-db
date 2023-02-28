@@ -4,15 +4,11 @@
 
 ### [Demo](https://songs-db.vercel.app/)
 
-</br>
-
 ### [GET https://songs-db.vercel.app/songs](https://songs-db.vercel.app/songs)
 
-</br>
+### Response song example:
 
 ```json
-Response:
-
 {
 "id": 1,
 "song_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
@@ -20,10 +16,7 @@ Response:
 "artist": "Cybertronix"
 }
 
-...
 ```
-
-</br>
 
 ## Song schema:
 
